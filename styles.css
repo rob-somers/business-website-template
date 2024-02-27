@@ -1,0 +1,42 @@
+.header{
+    display: flex;
+    background-color: #1f2937;
+    color: #ffffff;
+    justify-content: space-between;
+}
+
+.left-links{
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.right-links ul{
+    display: flex;
+    padding-left: 30px;
+}
+
+.right-links ul li{
+    display: flex;
+    margin: 20px;
+}
+
+.left-links a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.right-links li{
+    display: flex;
+    list-style-type: none;
+}
+
+li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.right-links{
+    display: flex;
+}
