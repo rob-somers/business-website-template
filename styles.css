@@ -6,20 +6,18 @@ body{
     display: flex;
     background-color: #1f2937;
     color: #ffffff;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .left-links{
     display: flex;
     color: #ffffff;
     align-items: center;
-    margin-left: 30px;
     font-weight: bold;
 }
 
 .right-links ul{
     display: flex;
-    padding-left: 30px;
     font-size: small;
 }
 
@@ -46,3 +44,13 @@ li a{
 .right-links{
     display: flex;
 }
+
+.section-one{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1f2937;
+    color: #ffffff;
+    padding: 60px;
+}
+
