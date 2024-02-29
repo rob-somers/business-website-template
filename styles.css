@@ -95,3 +95,23 @@ li a{
     align-items: center;
     justify-content: center;
   }
+
+  .footer{
+    display: flex;
+    height: 20%;
+    justify-content: center;
+  }
+
+  .footer-banner{
+    display: flex;
+    align-self: center;
+    background-color: #8a2be2;
+    width: 70%;
+    justify-content: space-around;
+  }
+
+
+  .footer-banner div{
+    display: flex;
+    align-items: center;
+  }
