@@ -54,3 +54,44 @@ li a{
     padding: 60px;
 }
 
+.section-two{
+    display: flex;
+    flex-direction: column;
+    height: 25%;
+}
+
+.section-two-header{
+    text-align: center;
+}
+
+.section-two-content{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    width: 70%;
+    align-self: center;
+    margin-top: 30px;
+}
+
+.card-and-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    border-radius: 10px; /* Adjust the value to change the roundness */
+    border-color: #8a2be2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for depth */
+    padding: 20px;
+    background-color: #ffffff; /* Set a background color for the card */
+  }
+
+  .section-three{
+    display: flex;
+    background-color: #e5e7eb;
+    margin: 0;
+    padding: 0;
+    height: 25%;
+    align-items: center;
+    justify-content: center;
+  }
